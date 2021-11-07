@@ -1,0 +1,8 @@
+{
+  "production": {
+    "baseURL": "https://payments.air-pay.io"
+  },
+  "sandbox": {
+    "baseURL": "https://payments.static-stg.tests.airtm.org"
+  }
+}

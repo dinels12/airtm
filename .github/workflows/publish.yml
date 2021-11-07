@@ -1,0 +1,22 @@
+name: Publish
+on: 
+  release:
+    types: [published]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      AIRTM_API_KEY:  ${{secrets.AIRTM_API_KEY}}
+      AIRTM_API_SECRET: ${{secrets.AIRTM_API_SECRET}}
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - run: npm install
+      - run: npm run build
+      - run: npm run test
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
