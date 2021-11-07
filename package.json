@@ -37,8 +37,7 @@
     "payment-gateway"
   ],
   "repository": {
-    "type": "git",
-    "url": "https://github.com/dinels12/airtm-node"
+    "url": "git://github.com/dinels12/airtm-node.git"
   },
   "bugs": {
     "email": "dinels12@gmail.com",
@@ -69,6 +68,9 @@
   "dependencies": {
     "axios": "^0.24.0",
     "uuid": "^8.3.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "jest": {
     "testEnvironment": "node"
