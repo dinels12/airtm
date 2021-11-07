@@ -15,7 +15,7 @@ First you have to initialize the airtm client with your airtm keys.
 > You can find/create the keys on [Airtm Apps](https://app.airtm.com/settings/apps)
 
 ```ts
-import Airtm from "airtm-node";
+import Airtm from "airtm";
 
 const airtm = new Airtm({
   clientKey: AIRTM_API_KEY, // Airtm Key
@@ -121,11 +121,11 @@ All the functions have Interfaces and their Types with more detailed Data of the
 
 You can create new issues, i will check it on github.
 
-
 ## Contributions
 
 This is a non-profit npm module, but every donation is welcome ^^
 
 ## Contact
+
 You can reach me via email
 dinels12@gmail.com

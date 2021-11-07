@@ -1,5 +1,5 @@
 {
-  "version": "0.0.16",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,28 +31,28 @@
     "singleQuote": false,
     "trailingComma": "es5"
   },
-  "name": "airtm-node",
+  "name": "airtm",
   "keywords": [
     "airtm",
     "payment-gateway"
   ],
   "repository": {
-    "url": "git://github.com/dinels12/airtm-node.git"
+    "url": "git://github.com/dinels12/airtm.git"
   },
   "bugs": {
     "email": "dinels12@gmail.com",
-    "url": "https://github.com/dinels12/airtm-node/issues"
+    "url": "https://github.com/dinels12/airtm/issues"
   },
-  "homepage": "https://github.com/dinels12/airtm-node",
+  "homepage": "https://github.com/dinels12/airtm",
   "author": "dinels",
-  "module": "dist/airtm-node.esm.js",
+  "module": "dist/airtm.esm.js",
   "size-limit": [
     {
-      "path": "dist/airtm-node.cjs.production.min.js",
+      "path": "dist/airtm.cjs.production.min.js",
       "limit": "15 KB"
     },
     {
-      "path": "dist/airtm-node.esm.js",
+      "path": "dist/airtm.esm.js",
       "limit": "10 KB"
     }
   ],
