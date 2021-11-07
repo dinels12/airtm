@@ -15,17 +15,7 @@ First you have to initialize the airtm client with your airtm keys.
 > You can find/create the keys on [Airtm Apps](https://app.airtm.com/settings/apps)
 
 ```ts
-import Airtm from "airtm";
-
-const airtm = new Airtm({
-  clientKey: AIRTM_API_KEY, // Airtm Key
-  clientSecret: AIRTM_API_SECRET, // Airtm secret
-  clientEnv: "production", // sandbox or production
-});
-```
-
-```ts
-import Airtm from "airtm";
+import Airtm from "airtm-node";
 
 const airtm = new Airtm({
   clientKey: AIRTM_API_KEY, // Airtm Key

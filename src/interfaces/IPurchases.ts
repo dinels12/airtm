@@ -1,5 +1,4 @@
 import { IOperation } from "./IOperations";
-import { OperationType, StatusType } from "./types/PurchasesTypes";
 
 interface Items {
   description: string;
